@@ -254,7 +254,28 @@ margin: auto;
       letter-spacing: 0.02em;
       text-align: center;
       color: #434455;
+      margin-bottom: 8px;
 }
+
+.socnet-team{
+display: flex;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #4d5ae5;
+align-items: center;
+justify-content: center;
+}
+
+.socnet-icon{
+   fill: #f4f4fd;
+}
+.socnet-list{
+   display: flex;
+   gap: 24px;
+  justify-content: center;
+}
+
 
 /* --------------Portfolio section------------ */
 
