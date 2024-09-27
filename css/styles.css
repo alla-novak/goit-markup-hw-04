@@ -352,7 +352,7 @@ flex-wrap: wrap;
    padding: 40px 32px;
 background-color: #4d5ae5;
    transform: translateY(100%);
-   transition: transform 250ms ease-in-out;
+   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item:hover .portfolio-p {
    transform: translateX(0);
